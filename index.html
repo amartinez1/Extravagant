@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Landy - Parallax App Landing Page</title>
+    <title>Extravagan- Parallax App Landing Page</title>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- CSS 
@@ -57,10 +57,15 @@
 					  	<div id="carousel-example-generic" class="carousel slide">
 					    
 					    <!-- Indicators -->
+					    <!--
 					    <ol class="carousel-indicators">
 					      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 					      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 					      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					    </ol>
+						-->
+						<ol class="carousel-indicators">
+					      <li data-target="#carousel-example-generic" data-slide-to="0" ></li>
 					    </ol>
 					  
 					    <!-- Wrapper for slides -->
@@ -85,9 +90,10 @@
 		  <div class="container">
 			  <div class="row">
 				  <div class="col-md-offset-2 col-md-8">
-					 <h1>Everything's easily customizable.</h1>
+					 <h1>Literally everything's easily customizable.</h1>
 					 	    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-					 	    <button type="button" class="app-store"></button>	
+					 	    <button type="button" class="app-store"></button>
+					 	    	
 				  </div>
 			  </div>
 		  </div>
@@ -242,6 +248,7 @@
 	  		</div>
 	  	</div>
 	  </section>
+
 	  
 	 
 	 <!-- JAVASCRIPT
@@ -251,5 +258,12 @@
     <script src="js/animatescroll.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/retina-1.1.0.min.js"></script>
+
+    <div class="color-settings">
+	<a href="javascript:;" onclick="setActiveStyleSheet('none'); return false;" class="color_default selected"></a>
+	<a href="javascript:;" onclick="setActiveStyleSheet('purple'); return false;" class="color_purple"></a>
+	<a href="javascript:;" onclick="setActiveStyleSheet('red'); return false;" class="color_red"></a>
+	<a href="javascript:;" onclick="setActiveStyleSheet('green'); return false;" class="color_green"></a>
+</div>
   	
 </html>
